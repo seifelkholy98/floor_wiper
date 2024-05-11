@@ -3,7 +3,7 @@
 ## Overview
 This project utilizes the Robot Operating System (ROS) to create a simulation environment where an autonomous cleaning robot navigates, detects dirt spots, and cleans them. The project integrates sensor inputs with predictive modeling to optimize the cleaning process.
 ## Architecture Diagram
-![Floor Wiper Diagram]([https://github.com/seifelkholy98/floor_wiper/raw/main/floor_wiper_diagram.png](https://github.com/seifelkholy98/floor_wiper/blob/main/floor%20wiper%20diagram.png))
+![Floor Wiper Diagram]((https://github.com/seifelkholy98/floor_wiper/blob/main/flowchart.png))
 
 ## Project Structure
 - `robot_mover.py`: Controls the robot's movement and decision-making processes based on real-time sensor data and predictive inputs.
