@@ -1,0 +1,9 @@
+<launch>
+    <!-- Start RViz -->
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find floor_wiper)/rviz_config.rviz"/>
+
+    <!-- Load URDF -->
+    <param name="robot_description" textfile="$(find floor_wiper)/urdf/floor_wiper.urdf"/>
+    <!-- Publish TF -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+</launch>
